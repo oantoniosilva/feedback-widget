@@ -2,11 +2,9 @@
   <img src="./.github/app.gif" alt="Web" />
 
   &#xa0;
-
-  <!-- <a href="https://web.netlify.com">Demo</a> -->
 </div>
 
-<h1 align="center">Web</h1>
+<h1 align="center">Feedback Widget</h1>
 
 <p align="center">
   <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/oantoniosilva/web?color=56BEB8">
@@ -32,8 +30,7 @@
 
 <hr> -->
 
-<p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
+<p align="center"> 
   <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-pré-requisitos">Pré requisitos</a> &#xa0; | &#xa0;
@@ -46,23 +43,21 @@
 
 ## :dart: Sobre ##
 
-Sobre o seu projeto
+Feedback Widget é uma aplicação desenvolvida para ajudar o usuário a reportar algum problema, ideia ou qualquer outro tipo de sugestão. A aplicação pode ser acoplada dentro de qualquer site para coleta das informações.
 
 ## :sparkles: Funcionalidades ##
 
-:heavy_check_mark: Funcionalidade 1;\
-:heavy_check_mark: Funcionalidade 2;\
-:heavy_check_mark: Funcionalidade 3;
+O Feedback Widgit pode enviar um feedback em forma de texto e ao mesmo tempo caso o usuário deseje, tirar uma screenshot da tela do usuário e documentar visualmente o problema relatado.
 
 ## :rocket: Tecnologias ##
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
+- [Vite](https://vitejs.dev/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [PhosphorIcons](https://phosphoricons.com/)
 
 ## :white_check_mark: Pré requisitos ##
 
@@ -78,10 +73,10 @@ $ git clone https://github.com/oantoniosilva/web
 $ cd web
 
 # Instale as dependências
-$ yarn
+$ npm install
 
 # Para iniciar o projeto
-$ yarn start
+$ npm start
 
 # O app vai inicializar em <http://localhost:3000>
 ```
